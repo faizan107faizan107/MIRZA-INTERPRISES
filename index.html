@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mirza Enterprises | Multi-Purpose Industrial Solutions</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+        body { background-color: #f9f9f9; color: #333; line-height: 1.6; }
+        header { background: #1a252f; color: #fff; padding: 20px 0; position: sticky; top: 0; z-index: 1000; }
+        .container { width: 85%; max-width: 1200px; margin: auto; display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-size: 24px; font-weight: bold; color: #f39c12; }
+        nav ul { display: flex; list-style: none; }
+        nav ul li { margin-left: 20px; }
+        nav ul li a { color: #fff; text-decoration: none; transition: 0.3s; }
+        nav ul li a:hover { color: #f39c12; }
+        .hero { background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1200&q=80') no-repeat center center/cover; color: #fff; text-align: center; padding: 100px 20px; }
+        .hero h1 { font-size: 42px; margin-bottom: 20px; }
+        .hero p { font-size: 18px; margin-bottom: 30px; max-width: 700px; margin-left: auto; margin-right: auto; }
+        .btn { background: #f39c12; color: #fff; padding: 12px 30px; border: none; border-radius: 5px; text-decoration: none; font-weight: bold; display: inline-block; transition: 0.3s; }
+        .btn:hover { background: #d68910; }
+        .whatsapp-btn { background: #25d366; color: #fff; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; display: inline-flex; align-items: center; gap: 8px; margin-top: 10px; transition: 0.3s; }
+        .whatsapp-btn:hover { background: #1ebe5d; }
+        .section { padding: 60px 20px; }
+        .section-title { text-align: center; margin-bottom: 40px; font-size: 32px; color: #1a252f; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; max-width: 1200px; margin: auto; }
+        .card { background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.05); text-align: center; }
+        .card h3 { margin-bottom: 15px; color: #1a252f; }
+        .about, .contact { background: #fff; }
+        .team-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; max-width: 900px; margin: 40px auto 0 auto; }
+        .team-card { background: #f8f9fa; border: 1px solid #e1e1e1; padding: 30px; border-radius: 8px; text-align: center; }
+        .team-card h3 { color: #1a252f; margin-bottom: 5px; }
+        .team-card .role { color: #f39c12; font-weight: bold; margin-bottom: 15px; }
+        .contact form { max-width: 600px; margin: auto; display: flex; flex-direction: column; gap: 15px; }
+        .contact input, .contact textarea { padding: 12px; border: 1px solid #ccc; border-radius: 5px; font-size: 16px; }
+        .contact textarea { resize: vertical; height: 150px; }
+        footer { background: #1a252f; color: #fff; text-align: center; padding: 20px; margin-top: 40px; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">Mirza Enterprises</div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#team">Management</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Welcome to Mirza Enterprises</h1>
+        <p>Your Trusted Partner for Multi-Purpose Industrial Products — Plastic Bottles, Caps, Bottle Strips, Grip Pads, and Quality Manufacturing Solutions.</p>
+        <a href="#contact" class="btn">Get in Touch</a>
+    </section>
+
+    <section id="products" class="section">
+        <h2 class="section-title">Our Products & Multi-Purpose Works</h2>
+        <div class="grid">
+            <div class="card"><h3>Plastic Bottles</h3><p>High-quality durable plastic bottles manufactured for various commercial and industrial packing needs.</p></div>
+            <div class="card"><h3>Caps & Closures</h3><p>Precision-made bottle caps designed for secure sealing and reliable performance.</p></div>
+            <div class="card"><h3>Bottle Strips</h3><p>Robust and flexible bottle strips tailored for systematic bundling and support.</p></div>
+            <div class="card"><h3>Grip Pads & More</h3><p>Specialized multi-purpose grip pads and diverse industrial solutions handled with expertise.</p></div>
+        </div>
+    </section>
+
+    <section id="about" class="section about">
+        <h2 class="section-title">About Mirza Enterprises</h2>
+        <div style="max-width: 800px; margin: auto; text-align: center;">
+            <p>Mirza Enterprises ek multi-purpose manufacturing aur industrial work provider hai. Humari koshish hamesha apne clients ko behtareen quality ke products jaise plastic bottles, caps, bottle strips, aur grip pads waqt par aur munaasib daamon mein faraham karne ki hoti hai.</p>
+        </div>
+    </section>
+
+    <section id="team" class="section" style="background: #fff;">
+        <h2 class="section-title">Management & Contact</h2>
+        <div class="team-grid">
+            <div class="team-card">
+                <h3>Mirza Samad Ashraf</h3>
+                <div class="role">Owner / Managing Director</div>
+                <p><strong>Phone / WhatsApp:</strong><br>0333-2014116</p>
+                <a href="https://wa.me/923332014116" target="_blank" class="whatsapp-btn">Chat on WhatsApp</a>
+            </div>
+            <div class="team-card">
+                <h3>Faizan Ali</h3>
+                <div class="role">Assistant Manager</div>
+                <p><strong>Phone / WhatsApp:</strong><br>0317-1074219</p>
+                <a href="https://wa.me/923171074219" target="_blank" class="whatsapp-btn">Chat on WhatsApp</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact">
+        <h2 class="section-title">Send Us a Message</h2>
+        <form action="#" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="text" name="phone" placeholder="Your Phone Number" required>
+            <textarea name="message" placeholder="Your Requirements / Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Mirza Enterprises. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
